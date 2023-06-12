@@ -1,8 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@src/styles/Home.module.css'
+import MealsRow from '@src/components/Meals/MealsRow'
+import Testimonials from '@src/components/Testimonials/Testimonials'
+import MealCaption from '@src/components/UI/MealCaption/MealCaption'
+import MenuList from '@src/components/MenuList/MenuList'
+import FeaturedMeals from '@src/components/FeaturedMeal/FeaturedMeals'
 
- 
 
 export default function Home() {
   return (
@@ -13,7 +17,20 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Food Delivery App</h1>
+      <FeaturedMeals />
+      <MenuList />
+      <MealsRow />
+      <MealCaption
+       header="COUNT THE MEMORIES NOT THE CALORIES"
+        note="Far away, behid the world mountains, far from the countries volkalie and consonantia, there live the blind texts"
+        imgUrl="caption1-bg" 
+        />
+      <Testimonials />
+      <MealCaption
+       header="NOTHING BRINGS PEOPLE TOGETHER LIKE GOOD FOOD."
+        note="Far away, behid the world mountains, far from the countries volkalie and consonantia, there live the blind texts"
+        imgUrl="caption2-bg" 
+        />
     </>
   )
 }
