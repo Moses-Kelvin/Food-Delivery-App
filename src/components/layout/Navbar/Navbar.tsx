@@ -5,7 +5,7 @@ import { MdAccountCircle } from "react-icons/md";
 import { BsFillCartFill } from "react-icons/bs";
 import { RxCross1 } from "react-icons/rx";
 
-const Navbar: React.FC = () => {
+const Navbar = () => {
 
     const [showDropdown, setShowDropdown] = useState(false);
 

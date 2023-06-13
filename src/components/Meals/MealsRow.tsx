@@ -1,7 +1,7 @@
 import React from "react";
 import MealCard from "./MealCard";
 
-const MealsRow: React.FC = () => {
+const MealsRow = () => {
     return (
         <div className="horizontalScroll py-16">
           <MealCard />

@@ -1,7 +1,7 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
 
-const Search: React.FC = () => {
+const Search = () => {
    return (
       <form className="w-1/2 m-auto sm:w-4/5">
          <label htmlFor="search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>

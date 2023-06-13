@@ -2,7 +2,7 @@ import React from "react";
 import FeaturedMeal from "./FeaturedMeal";
 import { SiCodechef } from "react-icons/si";
 
-const FeaturedMeals: React.FC = () => {
+const FeaturedMeals = () => {
     return (
         <section className="w-full pt-12">
             <div className="grid justify-items-center">

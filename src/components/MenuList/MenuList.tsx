@@ -2,7 +2,7 @@ import React from "react";
 
 const menu = ["Jollof Rice", "Swallow", "Yam & Plantain", "Proteins", "Shawarma/Fingerbites", "Soup Bowls", "Fried Rice", "Burger", "Beans", "Drinks", "Economy Pack"];
 
-const MenuList: React.FC = () => {
+const MenuList = () => {
 
     return (
         <section className="w-full pt-16">
@@ -11,7 +11,7 @@ const MenuList: React.FC = () => {
             </h1>
             <div className="horizontalScroll text-white">
                 {menu.map((meal, id) =>
-                    <div key={id} className="rounded-lg bg-lightGray w-fit px-4 py-2">
+                    <div key={id} className="rounded-lg bg-lightGray w-fit px-4 py-2 shadow-sm">
                         {meal}
                     </div>
                 )}

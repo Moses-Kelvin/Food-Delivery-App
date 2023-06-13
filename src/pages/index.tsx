@@ -6,6 +6,7 @@ import Testimonials from '@src/components/Testimonials/Testimonials'
 import MealCaption from '@src/components/UI/MealCaption/MealCaption'
 import MenuList from '@src/components/MenuList/MenuList'
 import FeaturedMeals from '@src/components/FeaturedMeal/FeaturedMeals'
+import Header from '@src/components/Header/Header'
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header />
       <FeaturedMeals />
       <MenuList />
       <MealsRow />

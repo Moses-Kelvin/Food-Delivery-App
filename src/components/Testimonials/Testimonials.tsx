@@ -1,7 +1,7 @@
 import React from 'react';
 import Testimonial from './Testimonial';
 
-const Testimonials: React.FC = () => {
+const Testimonials = () => {
     return (
         <section className="w-full bg-lightBlue pb-12 my-24">
             <h1 className="font-lighter text-5xl text-center tracking-wider px-2 py-6 text-deepRed sm:text-4xl">WHAT PEOPLE SAYS...</h1>

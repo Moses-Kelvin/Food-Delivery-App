@@ -3,9 +3,9 @@ import React from "react";
 import img7 from "../../assets/Images/img7.jpg";
 import { GrAdd } from "react-icons/gr";
 
-const FeaturedMeal: React.FC = () => {
+const FeaturedMeal = () => {
     return (
-        <div className="w-66 border-solid border-2 border-gray-200 sm:w-80">
+        <div className="w-66 border-solid border-2 border-gray-200 sm:w-80 shadow-lg">
             <Image src={img7} alt="" className="w-full h-1/2" />
             <div className="pt-10 pl-4">
                 <h1 className="font-bold">Noodles</h1>

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../layout/Navbar/Navbar";
 
 
-const Header: React.FC = () => {
+const Header = () => {
     return (
         <header className="header-bg">
             <Navbar />
