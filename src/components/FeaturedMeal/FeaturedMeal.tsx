@@ -13,7 +13,7 @@ const FeaturedMeal = () => {
             </div>
             <div className="pl-4 flex justify-between items-center mt-6 mb-2">
                 <h2 className="text-deepRed">$200.00</h2>
-                <p className="mr-28 font-thin text-sm text-grey line-through">$300.00</p>
+                <p className="mr-16 font-thin text-sm text-grey line-through">$300.00</p>
                 <div className="bg-deepRed text-white text-lighter font-small px-2">-10%</div>
             </div>
             <div className="w-12 h-12 rounded-full -mb-16 bg-deepRed flex items-center justify-center sm:w-16 sm:h-16">

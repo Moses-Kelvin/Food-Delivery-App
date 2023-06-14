@@ -22,7 +22,8 @@ module.exports = {
         "lightBlue": "#ADD8E6",
         "backdrop": "rgba(0, 0, 0, 0.85)",
         "bodyBlue": "#F0F8FF",
-        "lightGray": "hsl(233, 8%, 62%)"
+        "lightGray": "hsl(233, 8%, 62%)",
+        "goldColor": "#FFD700"
       },
     },
     screens: {
