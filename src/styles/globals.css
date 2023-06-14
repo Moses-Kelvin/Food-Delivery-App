@@ -6,9 +6,21 @@
   background: rgba(0, 0, 0, 0.85);
 }
 
+.goldBorder {
+  border: 2px solid #FFD700;
+}
+
+.goldColor {
+  color: #FFD700;
+}
+
+.accentColor {
+  accent-color: #FFD700;
+}
+
 .header-bg {
   background-image: url('../assets/Images/img10.jpg');
-  height: 30rem;
+  height: 28rem;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,6 +42,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   transform: scale(1.1);
+}
+
+nav {
+  box-shadow: 0 0 30px rgba(139, 136, 136, 0.25);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-block: 3rem;
+  background: var(rgb(255 255 255 0.5));
+  backdrop-filter: blur(16px);
+  z-index: 5;
+  transition: .5s ease-in-out;
 }
 
 

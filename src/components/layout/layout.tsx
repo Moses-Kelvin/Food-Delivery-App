@@ -1,7 +1,7 @@
 import React, { PropsWithChildren, useState } from "react";
 import Footer from "./Footer/Footer";
-import { PaymentOptions } from "../UI/PaymentOptions/PaymentOptions";
-import ChatBox from "../UI/Chat/ChatBox";
+import PaymentOptions from "../UI/PaymentOptions/PaymentOptions";
+import Navbar from "./Navbar/Navbar";
 
 const Layout = ({ children }: PropsWithChildren) => {
 
@@ -9,8 +9,8 @@ const Layout = ({ children }: PropsWithChildren) => {
 
     return (
         <>
-           <ChatBox />
-           {showModal && <PaymentOptions setShowModal={setShowModal} />}
+            {showModal && <PaymentOptions setShowModal={setShowModal} />}
+            <Navbar />
             <main>{children}</main>
             <Footer />
         </>

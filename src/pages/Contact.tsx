@@ -4,7 +4,7 @@ import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 
 const Contact = () => {
     return (
-        <section className="w-[70%] sm:w-[90%] bg-white sm:bg-transparent mt-12 grid grid-cols-2 m-auto sm:shadow-none shadow-lg sm:grid-cols-1 sm:mt-4">
+        <section className="w-[70%] sm:w-[90%] bg-white sm:bg-transparent mt-32 grid grid-cols-2 m-auto sm:shadow-none shadow-lg sm:grid-cols-1 sm:mt-4">
             <div className="w-full py-12 pl-16 sm:pl-2">
                 <h1 className="text-deepRed leading-normal font-thin font-lighter text-[2rem] sm:text-2xl tracking-widest">LOVE TO HEAR FROM YOU, GET IN TOUCH 👋</h1>
                 <form className="w-full pt-8">
