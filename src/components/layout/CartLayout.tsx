@@ -1,4 +1,3 @@
-import Map from "@src/components/Map/Map";
 import React, { PropsWithChildren } from "react";
 import CartItem from "../Cart/CartItem";
 

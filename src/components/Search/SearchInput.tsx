@@ -3,7 +3,7 @@ import { CiSearch } from "react-icons/ci";
 
 const SearchInput = () => {
    return (
-      <form className="w-1/2 m-auto sm:w-4/5 shadow-lg">
+      <form className="w-1/2 m-auto sm:w-[90%] shadow-lg">
          <label htmlFor="search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
          <div className="relative">
             <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -19,4 +19,3 @@ const SearchInput = () => {
 export default SearchInput;
 
 
- 

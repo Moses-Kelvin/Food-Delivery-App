@@ -5,7 +5,7 @@ import React from "react";
 
 const Search = () => {
     return (
-        <section className="w-full mt-32">
+        <section className="w-full mt-40">
             <SearchInput />
             <SearchResults />
         </section>

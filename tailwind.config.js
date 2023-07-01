@@ -23,7 +23,8 @@ module.exports = {
         "backdrop": "rgba(0, 0, 0, 0.85)",
         "bodyBlue": "#F0F8FF",
         "lightGray": "hsl(233, 8%, 62%)",
-        "goldColor": "#FFD700"
+        "goldColor": "#FFD700",
+        "lightRed": "#ffdadb"
       },
     },
     screens: {

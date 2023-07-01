@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '~maplibre-gl/dist/maplibre-gl.css';
 
 .backdrop {
   background: rgba(0, 0, 0, 0.85);
@@ -254,5 +255,41 @@ div.horizontalScroll>div {
   }
 }
 
+/* vertical scroll  */
+
+.scroller {
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
+  width: 10px;
+}
+
+.scroller::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(68, 65, 65);
+  border-radius: 10px;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background: rgb(68, 65, 65);
+  border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar {
+  display: block;
+}
+
+.scroll {
+  scrollbar-width: thin !important;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .scroller {
+      overflow-y: overlay;
+  }
+}
 
  

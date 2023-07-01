@@ -5,7 +5,7 @@ import { MdRestaurantMenu } from "react-icons/md";
 const Header = () => {
     return (
         <header className="header-bg">
-            <div className="m-auto w-1/2 text-whiteColor pb-10 sm:w-4/5 mt-[6rem] pt-28">
+            <div className="m-auto w-1/2 text-whiteColor pb-10 sm:w-4/5 mt-[6.3rem] pt-28">
                 <h1 className="font-bold text-5xl text-tangerineYellow font-serif sm:text-4xl">Are you hundry?</h1>
                 <h2 className="font-lighter text-4xl tracking-wide">Don't wait!!!</h2>
                 <h2 className="font-lighter text-4xl tracking-wide">Let's Start to order food now!</h2>

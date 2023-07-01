@@ -4,22 +4,22 @@ import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 
 const Contact = () => {
     return (
-        <section className="w-[70%] sm:w-[90%] bg-white sm:bg-transparent mt-32 grid grid-cols-2 m-auto sm:shadow-none shadow-lg sm:grid-cols-1 sm:mt-4">
+        <section className="w-[70%] sm:w-[90%] bg-white sm:bg-transparent mt-36 grid grid-cols-2 m-auto sm:shadow-none shadow-lg sm:grid-cols-1 sm:mt-20">
             <div className="w-full py-12 pl-16 sm:pl-2">
                 <h1 className="text-deepRed leading-normal font-thin font-lighter text-[2rem] sm:text-2xl tracking-widest">LOVE TO HEAR FROM YOU, GET IN TOUCH 👋</h1>
                 <form className="w-full pt-8">
-                    <label htmlFor="input-group-1" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Email</label>
+                    <div className="mb-6">
+                        <label htmlFor="large-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+                        <input type="text" id="large-input" className="block w-full focus:outline-none p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" />
+                    </div>
+                    <label htmlFor="input-group-1" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
                     <div className="relative mb-6">
                         <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                             <MdEmail />
                         </div>
-                        <input type="text" id="input-group-1" className="bg-gray-50 focus:outline-none border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="name@flowbite.com" />
+                        <input type="text" id="input-group-1" className="bg-gray-50 focus:outline-none border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="name@gmail.com" />
                     </div>
 
-                    <div className="mb-6">
-                        <label htmlFor="large-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username</label>
-                        <input type="text" id="large-input" className="block w-full focus:outline-none p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" />
-                    </div>
 
                     <div className="mb-6">
                         <label htmlFor="large-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
@@ -39,15 +39,15 @@ const Contact = () => {
                         <p>19, unity avenue, off isuti rd, egan-igando, lagos.</p>
                     </div>
                     <div className="flex gap-x-4 items-center my-4">
-                        <MdPhone size={30}/>
+                        <MdPhone size={30} />
                         <p>08108989321</p>
                     </div>
                     <div className="flex gap-x-4 items-center my-4">
-                        <MdEmail size={30}/>
+                        <MdEmail size={30} />
                         moseskelvin683@gmail.com
                     </div>
                     <div className="flex gap-x-4 items-center my-4">
-                        <BsFillChatFill size={30}/>
+                        <BsFillChatFill size={30} />
                         <p>08108989321</p>
                     </div>
                 </div>

@@ -44,7 +44,7 @@ const PaymentOptions = ({ setShowModal }: modalProps) => {
                 <div className="w-[35%] bg-deepRed h-fit rounded-lg m-auto mt-12 pb-8 sm:w-[90%]">
                     <h1 className="font-thin font-lighter font-sans tracking-wider text-goldColor pb-6 pl-8 pt-8 text-xl sm:text-lg sm:pl-0 sm:text-center">CHOOSE YOUR PAYMENT METHOD</h1>
                     <Image src={payment} alt="" className="w-44 h-36 m-auto sm:h-32" />
-                    <ul className="grid justify-items-center gap-y-2">
+                    <ul className="grid justify-items-center gap-y-4">
                         {PaymentOptionsData.map((data) =>
                             <Options key={data.id} data={data} setOptionId={setOptionId} optionId={optionId} />
                         )}
