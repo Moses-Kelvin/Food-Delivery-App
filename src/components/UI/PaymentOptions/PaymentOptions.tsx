@@ -15,18 +15,18 @@ interface modalProps {
 const PaymentOptionsData = [
     {
         id: "p1",
-        name: "Credit/Debit Card.",
-        des: "Pay with debit or credit card.",
+        name: "Online Payment",
+        des: "Pay via credit/debit card or paypal",
         icon: <BsFillCreditCardFill size={20} fill="white" style={{ marginRight: '1rem' }} />
     },
+    // {
+    //     id: "p2",
+    //     name: "PayPal",
+    //     des: "Pay with paypal.",
+    //     icon: <FaPaypal size={20} fill="white" style={{ marginRight: '1rem' }} />
+    // },
     {
         id: "p2",
-        name: "PayPal",
-        des: "Pay with paypal.",
-        icon: <FaPaypal size={20} fill="white" style={{ marginRight: '1rem' }} />
-    },
-    {
-        id: "p3",
         name: "Cash.",
         des: "Pay cash on delivery.",
         icon: <GiCash size={20} fill="white" style={{ marginRight: '1rem' }} />
@@ -41,10 +41,10 @@ const PaymentOptions = ({ setShowModal }: modalProps) => {
     return (
         <Portal selector="#portal-container">
             <div className="fixed w-full h-full backdrop z-[1000]">
-                <div className="w-[35%] bg-deepRed h-fit rounded-lg m-auto mt-12 pb-8 sm:w-[90%]">
+                <div className="w-[35%] bg-deepRed h-fit rounded-lg m-auto mt-16 pb-8 sm:w-[90%]">
                     <h1 className="font-thin font-lighter font-sans tracking-wider text-goldColor pb-6 pl-8 pt-8 text-xl sm:text-lg sm:pl-0 sm:text-center">CHOOSE YOUR PAYMENT METHOD</h1>
                     <Image src={payment} alt="" className="w-44 h-36 m-auto sm:h-32" />
-                    <ul className="grid justify-items-center gap-y-4">
+                    <ul className="grid justify-items-center gap-y-8">
                         {PaymentOptionsData.map((data) =>
                             <Options key={data.id} data={data} setOptionId={setOptionId} optionId={optionId} />
                         )}

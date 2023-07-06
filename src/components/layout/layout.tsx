@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 
 const Layout = ({ children }: PropsWithChildren) => {
 
-    const [showModal, setShowModal] = useState(false);
+    // const [showModal, setShowModal] = useState(false);
 
     const { pathname } = useRouter();
 
@@ -14,7 +14,7 @@ const Layout = ({ children }: PropsWithChildren) => {
 
     return (
         <>
-            {showModal && <PaymentOptions setShowModal={setShowModal} />}
+            {/* {showModal && <PaymentOptions setShowModal={setShowModal} />} */}
             {!onAuthPath && <Navbar />}
             <main>{children}</main>
             {!onAuthPath && <Footer />}
